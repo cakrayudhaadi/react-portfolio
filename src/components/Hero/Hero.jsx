@@ -19,7 +19,7 @@ export default function Hero() {
             <p className="hero-role">Backend Developer | Fullstack Developer</p>
             <p className="hero-summary">5+ years building high-performance microservices & APIs with Java, Node.js, and NestJS. From fintech to telco — I grow systems that scale.</p>
             <div className="hero-btns">
-              <a href="https://drive.google.com/file/d/1l6AxEN239Y-ZrUrqtXFFvewFm_8ObdvC/view?usp=sharing" className="btn btn-primary" target="_blank">⬇️ Download Resume</a>
+              <a href="https://drive.google.com/file/d/1Tipcz7UIAsrAXmBeSr-Db8s_239HSptV/view?usp=sharing" className="btn btn-primary" target="_blank">⬇️ Download Resume</a>
               <a href="#projects" className="btn btn-secondary">🌾 See My Work</a>
               <a href="#contact" className="btn btn-tertiary">📬 Get In Touch</a>
             </div>
