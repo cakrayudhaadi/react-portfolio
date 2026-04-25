@@ -1,0 +1,241 @@
+const CDN = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons";
+const SI = "https://cdn.simpleicons.org";
+
+export const skills = {
+  Languages: [
+    { name: "Java", logo: `${CDN}/java/java-original.svg` },
+    { name: "TypeScript", logo: `${CDN}/typescript/typescript-original.svg` },
+    { name: "JavaScript", logo: `${CDN}/javascript/javascript-original.svg` },
+    { name: "Go", logo: `${CDN}/go/go-original.svg` },
+    { name: "C#", logo: `${CDN}/csharp/csharp-original.svg` },
+    { name: "PHP", logo: `${CDN}/php/php-original.svg` },
+    { name: "Dart", logo: `${CDN}/dart/dart-original.svg` },
+    { name: "HTML", logo: `${CDN}/html5/html5-original.svg` },
+    { name: "CSS", logo: `${CDN}/css3/css3-original.svg` },
+  ],
+  "Frameworks & Libraries": [
+    { name: "Spring Boot", logo: `${CDN}/spring/spring-original.svg` },
+    { name: "Quarkus", logo: `${SI}/quarkus/EE503E` },
+    { name: "NestJS", logo: `${CDN}/nestjs/nestjs-original.svg` },
+    { name: "Node.js", logo: `${CDN}/nodejs/nodejs-original.svg` },
+    { name: "React", logo: `${CDN}/react/react-original.svg` },
+    { name: "Flutter", logo: `${CDN}/flutter/flutter-original.svg` },
+    { name: "Laravel", logo: `${CDN}/laravel/laravel-original.svg` },
+    { name: "ASP.NET", logo: `${CDN}/dotnetcore/dotnetcore-original.svg` },
+  ],
+  "Databases & Storage": [
+    { name: "PostgreSQL", logo: `${CDN}/postgresql/postgresql-original.svg` },
+    { name: "MongoDB", logo: `${CDN}/mongodb/mongodb-original.svg` },
+    { name: "MySQL", logo: `${CDN}/mysql/mysql-original.svg` },
+    { name: "Oracle DB", logo: `${CDN}/oracle/oracle-original.svg` },
+    { name: "Redis", logo: `${CDN}/redis/redis-original.svg` },
+    { name: "IBM DB2", logo: `${SI}/ibm/052FAD` },
+    { name: "MinIO", logo: `${SI}/minio/C72E49` },
+  ],
+  "DevOps & Infra": [
+    { name: "Docker", logo: `${CDN}/docker/docker-original.svg` },
+    { name: "Jenkins", logo: `${CDN}/jenkins/jenkins-original.svg` },
+    { name: "Apache Kafka", logo: `${SI}/apachekafka/231F20` },
+    { name: "Elasticsearch", logo: `${SI}/elasticsearch/005571` },
+    { name: "Kibana", logo: `${SI}/kibana/005571` },
+    { name: "NGINX", logo: `${CDN}/nginx/nginx-original.svg` },
+    { name: "Git", logo: `${CDN}/git/git-original.svg` },
+  ],
+  "Project & Collaboration": [
+    { name: "Jira", logo: `${CDN}/jira/jira-original.svg` },
+    { name: "ClickUp", logo: `${SI}/clickup/7B68EE` },
+    { name: "Trello", logo: `${CDN}/trello/trello-original.svg` },
+  ],
+};
+
+export const experiences = [
+  {
+    company: "PT. Code Development Indonesia",
+    period: "Sep 2024 – Present",
+    roles: [
+      {
+        title: "Backend Developer",
+        client: "@ PT. Telkomsel",
+        period: "Feb 2026 – Present",
+        bullets: [
+          "Engineered an AI Biometric Facial Recognition system and AI-powered Travel Assistant for automated itinerary generation.",
+          "Utilized Redis for high-speed caching and session management, ensuring low-latency AI-driven responses.",
+          "Designed scalable MongoDB data models optimized for high-volume unstructured data and AI search results.",
+          "Built highly maintainable microservices architecture with NestJS.",
+          "Developed an enterprise CMS to manage merchant onboarding, transaction processing, and marketing campaigns.",
+          "Implemented robust security protocols (Pentest Approved) to protect sensitive data and ensure system integrity.",
+        ],
+        tech: ["Node.js", "NestJS", "Redis", "MongoDB", "MinIO"],
+      },
+      {
+        title: "Backend Developer",
+        client: "@ PT. Asuransi Jasa Indonesia",
+        period: "Aug 2025 – Feb 2026",
+        bullets: [
+          "Engineered a Central Payment Service consolidating financial transactions for 5 internal enterprise systems.",
+          "Integrated Xendit Payment Gateway and Virtual Account infrastructure for automated payment processing.",
+          "Developed high-reliability Webhooks for real-time payment notifications with 100% transaction accuracy.",
+          "Optimized backend services using Java Spring Boot and IBM DB2 with ACID-compliant transactions.",
+        ],
+        tech: ["Java", "Spring Boot", "IBM DB2", "Xendit API", "Webhooks"],
+      },
+      {
+        title: "Backend Developer",
+        client: "@ PT. Telkomsel",
+        period: "Jul 2025 – Aug 2025",
+        bullets: [
+          "Engineered a central monitoring dashboard for 200+ Centerm soundbox devices using Node.js.",
+          "Integrated Elasticsearch and Kibana for real-time log analysis and health visualization.",
+          "Designed high-availability storage using PostgreSQL and Redis.",
+          "Implemented RBAC and JWT for secure access controls.",
+        ],
+        tech: [
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "Elasticsearch",
+          "Kibana",
+          "JWT",
+        ],
+      },
+      {
+        title: "Backend Developer",
+        client: "@ PT. Prudential Life Assurance",
+        period: "Sep 2024 – Jul 2025",
+        bullets: [
+          "Developed backend servers using Quarkus and maintained legacy Spring Boot projects.",
+          "Built and optimized API gateways using NestJS and TypeScript.",
+          "Increased unit test coverage from 0% to 95%, drastically reducing production regressions.",
+          "Utilized Apache Kafka for asynchronous event-driven messaging.",
+        ],
+        tech: [
+          "Java",
+          "Quarkus",
+          "Spring Boot",
+          "NestJS",
+          "Kafka",
+          "JaCoCo",
+          "TypeScript",
+        ],
+      },
+    ],
+  },
+  {
+    company: "PT. Mitra Integrasi Informatika",
+    period: "Sep 2021 – Sep 2024",
+    roles: [
+      {
+        title: "Fullstack Developer",
+        client: "@ PT. Federal International Finance",
+        period: "May 2022 – Sep 2024",
+        bullets: [
+          "Achieved 95% improvement in system response time, reducing latency from 20s to under 1s.",
+          "Built and maintained 20+ system modules using MVVM pattern and ZK/Zkoss framework.",
+          "Delivered high-priority features within 3-week Sprints using Scrum methodology.",
+          "Performed unit testing with JUnit and managed full SDLC from development to UAT.",
+        ],
+        tech: [
+          "Java",
+          "Spring Boot",
+          "Oracle DB",
+          "ZK/Zkoss",
+          "JUnit",
+          "Scrum",
+        ],
+      },
+      {
+        title: "Project Management Officer",
+        client: "@ PT. Bank Negara Indonesia",
+        period: "Nov 2021 – May 2022",
+        bullets: [
+          "Managed timelines and delivery for IT and Banking Operational Support projects.",
+          "Coordinated meetings across multiple divisions to ensure project alignment.",
+          "Tracked project progress ensuring all milestones were met on schedule.",
+        ],
+        tech: ["Trello", "Project Management", "Documentation"],
+      },
+    ],
+  },
+  {
+    company: "PT Lawencon International",
+    period: "May 2021 – Aug 2021",
+    roles: [
+      {
+        title: "Programmer & QA Intern",
+        client: "",
+        period: "May 2021 – Aug 2021",
+        bullets: [
+          "Developed automated test scripts using Katalon Studio to improve QA efficiency.",
+          "Executed unit testing and manual end-to-end testing for web and mobile applications.",
+          "Identified and documented software defects during active development phases.",
+        ],
+        tech: ["Katalon Studio", "QA Testing", "Manual Testing"],
+      },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: "AI Biometric & Travel Assistant",
+    company: "PT. Telkomsel",
+    period: "2026",
+    icon: "🤖",
+    color: "linear-gradient(135deg,#4A7C3F 0%,#5B8FA8 100%)",
+    desc: "Engineered an AI-powered Facial Recognition system and a Travel Assistant that auto-generates personalized itineraries. Built with NestJS microservices and MongoDB.",
+    highlight: "⚡ AI-Powered Features",
+    tech: ["Node.js", "NestJS", "MongoDB", "Redis", "MinIO"],
+  },
+  {
+    title: "Content Management System",
+    company: "PT. Telkomsel",
+    period: "2026",
+    icon: "🧰",
+    color: "linear-gradient(135deg,#5B8FA8 0%,#D4A843 100%)",
+    desc: "Enterprise backend API built with NestJS handling authentication, campaigns, attendance, and operations across 17+ modules. Features JWT, RBAC, MongoDB, Redis, MinIO storage, and complete Docker containerization.",
+    highlight: "📦 17+ modules",
+    tech: ["NestJS", "TypeScript", "MongoDB", "Redis", "MinIO"],
+  },
+  {
+    title: "Central Payment Service",
+    company: "PT. Asuransi Jasa Indonesia",
+    period: "2025–2026",
+    icon: "💳",
+    color: "linear-gradient(135deg,#7B5EA7 0%,#8B3A52 100%)",
+    desc: "Consolidated financial transactions across 5 enterprise systems. Integrated Xendit Gateway and real-time webhooks achieving 100% transaction accuracy.",
+    highlight: "✅ 100% Transaction Accuracy",
+    tech: ["Spring Boot", "IBM DB2", "Xendit", "Webhooks"],
+  },
+  {
+    title: "IoT Device Monitoring Dashboard",
+    company: "PT. Telkomsel",
+    period: "2025",
+    icon: "📡",
+    color: "linear-gradient(135deg,#5B8FA8 0%,#3D5E35 100%)",
+    desc: "Built a centralized real-time dashboard monitoring 200+ Centerm soundbox devices, leveraging Elasticsearch and Kibana for fleet health visualization.",
+    highlight: "📡 200+ Devices Monitored",
+    tech: ["Node.js", "PostgreSQL", "Elasticsearch", "Kibana"],
+  },
+  {
+    title: "API Gateway & Microservices Platform",
+    company: "PT. Prudential Life Assurance",
+    period: "2024–2025",
+    icon: "🔀",
+    color: "linear-gradient(135deg,#D4A843 0%,#4A7C3F 100%)",
+    desc: "Architected enterprise API gateways with Quarkus and NestJS. Transformed testing culture from 0% to 95% unit test coverage with Kafka event-driven messaging.",
+    highlight: "📈 0% to 95% Test Coverage",
+    tech: ["Quarkus", "NestJS", "Kafka", "Spring Boot"],
+  },
+  {
+    title: "Enterprise Loan Management System",
+    company: "PT. Federal International Finance",
+    period: "2022–2024",
+    icon: "🏦",
+    color: "linear-gradient(135deg,#8FBC6E 0%,#3D5E35 100%)",
+    desc: "Developed 20+ core web application modules for a major financial institution. Achieved 95% improvement in response time, dropping latency from 20s to under 1 second.",
+    highlight: "🚀 20s to under 1s Response Time",
+    tech: ["Spring Boot", "Oracle DB", "ZK/Zkoss", "JUnit"],
+  },
+];
+
+export const leaves = ["🍃", "🍂", "🌿", "🍁"];
